@@ -1,0 +1,13 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Todo__525080597 = {completed : Bool; id : Nat; text : Text};
+actor {
+  stable state : {var nextId : Nat};
+  stable todos :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Todo__525080597]];
+      var elementIndex : Nat__490723111
+    }
+};

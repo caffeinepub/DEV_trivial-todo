@@ -1,0 +1,18 @@
+{
+  "overview": "A minimal todo app for testing deployment. Add tasks, mark them complete, and delete them.",
+  "features": [
+    "Add todos with an input field",
+    "Mark todos complete/incomplete",
+    "Delete todos",
+    "Show total and completed count",
+    "Empty state message"
+  ],
+  "category": "productivity",
+  "tags": [
+    "todo",
+    "minimal",
+    "productivity",
+    "deployment-test"
+  ],
+  "last_updated": "2026-05-07T17:19:38.862Z"
+}

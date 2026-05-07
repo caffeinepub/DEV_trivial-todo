@@ -1,0 +1,12 @@
+type Todo = 
+ record {
+   completed: bool;
+   id: nat;
+   "text": text;
+ };
+service : {
+  addTodo: ("text": text) -> (nat);
+  deleteTodo: (id: nat) -> ();
+  getTodos: () -> (vec Todo) query;
+  toggleTodo: (id: nat) -> ();
+}
